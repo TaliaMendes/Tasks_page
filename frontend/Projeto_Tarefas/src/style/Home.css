@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+} 
+
+.mainHome {
+  min-height: 100vh;
+  background-image: url('../assets/imagemFundo.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.logoHome {
+  padding: 40px;
+  font-size: 50px;
+  flex-direction: column;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  padding: 70px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer; /* Mostra um cursor de clique */
+  font-size: 16px; 
+  text-align:  center;
+  color: #eee9e9;
+  box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.829);
+}
+
+.botao{
+  text-align: center;
+}
